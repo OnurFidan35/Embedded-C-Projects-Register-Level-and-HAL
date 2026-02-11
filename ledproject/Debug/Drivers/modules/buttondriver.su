@@ -1,0 +1,6 @@
+../Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	16	static
+../Drivers/modules/buttondriver.c:9:6:buttondriver_init	4	static
+../Drivers/modules/buttondriver.c:20:6:ButtonDriverIRQ_init	16	static
+../Drivers/modules/buttondriver.c:39:5:buttondriver_get_state	4	static
+../Drivers/modules/buttondriver.c:46:6:EXTI0_IRQHandler	16	static

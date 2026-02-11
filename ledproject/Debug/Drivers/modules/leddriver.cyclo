@@ -1,0 +1,3 @@
+../Drivers/modules/leddriver.c:9:6:leddriver_init	1
+../Drivers/modules/leddriver.c:34:6:leddriver_on	1
+../Drivers/modules/leddriver.c:42:6:leddriver_off	1
