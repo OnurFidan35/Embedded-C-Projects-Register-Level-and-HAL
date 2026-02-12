@@ -1,0 +1,17 @@
+17:09:32 **** Incremental Build of configuration Debug for project Basic Timer- Periodic Signal ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/Modules/time6.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../USB_HOST/App -I../Drivers/Modules -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/Modules/time6.d" -MT"Drivers/Modules/time6.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/Modules/time6.o"
+arm-none-eabi-gcc -o "Basic Timer- Periodic Signal.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\stm32projects\Basic Timer- Periodic Signal\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Basic Timer- Periodic Signal.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Basic Timer- Periodic Signal.elf
+ 
+arm-none-eabi-size  Basic\ Timer-\ Periodic\ Signal.elf 
+arm-none-eabi-objdump -h -S Basic\ Timer-\ Periodic\ Signal.elf  > "Basic Timer- Periodic Signal.list"
+   text	   data	    bss	    dec	    hex	filename
+  36316	    124	   4124	  40564	   9e74	Basic Timer- Periodic Signal.elf
+Finished building: default.size.stdout
+ 
+Finished building: Basic Timer- Periodic Signal.list
+ 
+
+17:09:33 Build Finished. 0 errors, 0 warnings. (took 918ms)
+
