@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;General Purpose Timer - Output Compare/Core/Inc/timer14&apos; to &apos;timer14.h&apos;" description="Rename resource &apos;timer14&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/timer14" name="timer14.h" stamp="1770975356999" updateReferences="true"/>
+</session>
